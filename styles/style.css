@@ -1,0 +1,60 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  max-width: 1600px;
+}
+/* ...........shared style .........*/
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+.container {
+  width: 85%;
+  max-width: 1360px;
+  margin: 0 auto;
+}
+.btn {
+  background-color: #469165;
+  border: none;
+  padding: 12px 16px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
+.btn:hover {
+  background-color: white;
+  color: #469165;
+  border: 2px solid #469165;
+  cursor: pointer;
+}
+/* ............Nav.................... */
+header {
+  max-width: 100%;
+  height: 92px;
+  /* border: 1px solid red; */
+}
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu {
+  display: flex;
+  gap: 32px;
+}
+header nav .logo img {
+  width: 139px;
+  height: 60px;
+  margin: 16px;
+}
+ul li {
+  list-style: none;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #000000;
+}
