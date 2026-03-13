@@ -131,3 +131,124 @@ ul li a {
   background-color: white;
   cursor: pointer;
 }
+
+/* ...........card............. */
+
+.card-section {
+  background-color: #f7f6f2;
+  height: 448px;
+}
+.card-description {
+  padding-top: 64px;
+  margin: 0 auto;
+  text-align: center;
+}
+.card-description h2 {
+  font-size: 48px;
+  color: #001931;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.card-description p {
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+  margin-bottom: 38px;
+}
+.card-section .card-subject .card-group {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-end;
+}
+.card-section .card-subject .card-group .card {
+  background-color: #ffffff;
+  width: 322px;
+  height: 300px;
+  text-align: center;
+  border-radius: 8px;
+}
+.card img {
+  padding: 15px;
+  background-color: #f95555;
+  border-radius: 50%;
+  margin-top: 69px;
+  margin-bottom: 16px;
+}
+
+.card-section .card-subject .card-group .card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #001931;
+  line-height: auto;
+  margin-bottom: 16px;
+}
+.card-section .card-subject .card-group .card p {
+  color: #627382;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.card img {
+  padding: 15px;
+  background-color: #f95555;
+  border-radius: 50%;
+}
+.info img {
+  margin-top: 45px;
+}
+/* ......................Solution......... */
+
+#solution {
+  height: 840px;
+  background-color: #ffffff;
+  /* border: 1px solid red; */
+}
+.information {
+  display: flex;
+  height: 600px;
+  gap: 60px;
+  margin: 120px;
+}
+.information-box {
+  padding: 101px 0px;
+  /* border: 1px solid red; */
+}
+.information .brain-image img {
+  width: 600px;
+  height: 600px;
+  /* border: 1px solid red; */
+}
+.information-box .box1 h5 {
+  color: #30b868;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  margin-bottom: 16px;
+}
+.information-box .box1 h2 {
+  color: #001931;
+  line-height: auto;
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.information-box .box1 p {
+  color: #627382;
+  line-height: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+.information-box .box2 ul li img {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.information-box .box2 ul li {
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 500;
+}
