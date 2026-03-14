@@ -34,7 +34,6 @@
 header {
   max-width: 100%;
   height: 92px;
-  /* border: 1px solid red; */
 }
 header .container {
   display: flex;
@@ -57,6 +56,9 @@ ul li a {
   text-decoration: none;
   font-size: 16px;
   color: #000000;
+}
+.menu li a:hover {
+  color: #469165;
 }
 
 /* ...........Banner......... */
@@ -287,4 +289,46 @@ ul li a {
   font-weight: 400;
   line-height: 20px;
   color: #627382;
+}
+/* .............footer.......... */
+
+#social {
+  background-color: #001931;
+  height: 348px;
+  color: white;
+}
+#social .container .link {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 120px;
+  padding-bottom: 80px;
+}
+#social .container .social-link {
+  padding-right: 107px;
+}
+#social .container .social-link p {
+  margin-bottom: 16px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.social-link ul li a {
+  color: #000000;
+  background-color: white;
+  border-radius: 50%;
+  display: inline;
+  padding: 4px;
+  margin-right: 16px;
+}
+.social-link ul li {
+  display: inline;
+}
+#social .copyright p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #ffffff;
+  padding-top: 30px;
+  text-align: center;
 }
